@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{IT452 Final Project Proposal}
+\author{Sion Harrington - m202484 }
+\date{ 08 April 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{Project Specification}
+    For the final project I plan on creating an online 'virtual' stock portfolio where users sign up and receive a starting amount of cash. The user will then be able to look up stocks to see price history and buy them. I will use a mysql database to store pertinent information for the users.  I will also create a discussion board where users can chat.
+
+\section{Weekly Breakdown}
+\begin{itemize}
+    \item Milestone 1: I will find a bootstrap template for the project I think will be useful then start to format it towards what I am looking for. I will set up the file names for navigation on the page so I have a template for the functionality that I will be adding. I will also look into options for external APIs that can be used for stock information. When I have this information I will also create a tentative model of what information I want to store in the database. I will also set up a gitlab repo in order to track revisions that are made.
+    \item Milestone 2: I will create a search page where the user can look up the stocks they want to add to their portfolio. The page will check to make sure they have sufficient funds. 
+    \item Milestone 3: I will create a trends page where the user can see how their portfolio has grown/declined over time. I haven't decided what scope yet (week, months, something adjustable) but I will see what information I can be provided from the APIs. I will also create a discussion board for members to contact each other.
+    \item Final Deadline: I will use this week to finalize all of the work and make sure all parts mesh together. I will also create some admin functionality to remove users/deposit money into people's accounts.
+\end{itemize}
+
+\section{Project Flow}
+Here is how I see the architecture of the site looking:
+\begin{itemize}
+    \item login - home: shows current portfolio information, data trends
+    \item home - buy/sell stock: allows user to buy/sell for their portfolio
+    \item home - chat board: allows users to communicate to each other
+    \item home - logout: logs user out
+    \item home - admin login: gives admin access to remove users or make more deposits
+\end{itemize}
+\section{Testing Plan}
+I will test each part's functionality by creating multiple users for the system and progressively making sure they are able to login properly and access each part error free.
+\section{Documentation Plan}
+I will include thorough commenting for my customer to see how my project is coming together as well as LCDR Leavitt.
+
+\section{Revision Control Plan}
+I will create a gitlab repo in order to track revisions on each part. The project can be accessed here: https://gitlab.usna.edu/m202484/it452-final-project. 
+\section{Customer}
+My customer will be MIDN Danny Kim. I will ask for feedback at each milestone and suggestions moving forward. I will ask him to test each portion to look for errors and user friendly functionality.
+
+
+\end{document}
